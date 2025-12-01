@@ -1,47 +1,46 @@
-        html, body {
-            height: 100%;
-            margin: 0;
-            background-color: #ffd6d6; 
-        }
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #ffd6d6; 
+}
 
-        body {
-            font-family: 'Lato', sans-serif;
-            color: #1a1a1a;
-        }
+body {
+    font-family: 'Lato', sans-serif;
+    color: #1a1a1a;
+}
 
-        .font-serif {
-            font-family: 'Playfair Display', serif;
-        }
+.font-serif {
+    font-family: 'Playfair Display', serif;
+}
 
-        .form-custom-field {
-            background-color: #F8D8D8; 
-            color: #1a1a1a; 
-            border: 1px solid #F0CFCF; 
-            height: 3.5rem; 
-            font-weight: bold;
-        }
+.form-custom-field {
+    background-color: #F8D8D8; 
+    color: #1a1a1a; 
+    border: 1px solid #F0CFCF; 
+    height: 3.5rem; 
+    font-weight: bold;
+}
 
-        .form-custom-field:focus {
-            background-color: #F8D8D8;
-            border-color: #EAA0A0; 
-            box-shadow: 0 0 0 0.25rem rgba(234, 160, 160, 0.25); 
-        }
+.form-custom-field:focus {
+    background-color: #F8D8D8;
+    border-color: #EAA0A0; 
+    box-shadow: 0 0 0 0.25rem rgba(234, 160, 160, 0.25); 
+}
         
-        .nav-link {
-            font-size: 0.8rem;
-            letter-spacing: 1px;
-            color: #000 !important;
-        }
+.nav-link {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: #000 !important;
+}
         
         
-        .btn-agenda-color {
-            background-color: #ffd6d6; 
-            color: #1a1a1a; 
-            border: none;
-           
-        }
+.btn-agenda-color {
+    background-color: #ffd6d6; 
+    color: #1a1a1a; 
+    border: none;   
+}
 
-        .btn-agenda-color:hover {
-            background-color: #d19494; 
-            color: #1a1a1a;
-        }
+.btn-agenda-color:hover {
+    background-color: #d19494; 
+    color: #1a1a1a;
+}

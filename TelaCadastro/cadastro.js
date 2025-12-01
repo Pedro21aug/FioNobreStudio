@@ -7,6 +7,6 @@ if (senha != confirmarSenha) {
     return false; 
 }
             
-window.location.href = 'http://127.0.0.1:5500/TelaServicos/servicos.html';
+window.location.href = '/TelaServicos/servicos.html';
     return false; 
 }
