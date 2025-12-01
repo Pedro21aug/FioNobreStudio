@@ -1,0 +1,9 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #ffd6d6; 
+}
+
+.font-serif {
+    font-family: 'Playfair Display', serif;
+}

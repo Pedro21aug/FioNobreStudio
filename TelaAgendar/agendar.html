@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fio Nobre Studios - Agendamento</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="agendar.css">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="text-dark">
+
+    <div class="container d-flex flex-column min-vh-100 py-4">
+        
+<header class="d-flex flex-wrap justify-content-between align-items-end border-bottom border-dark pb-2 mb-4">
+    <div class="logo">
+        <h1 class="h3 mb-0 font-serif">Fio Nobre Studios</h1>
+    </div>
+            
+    <nav>
+        <ul class="nav">
+            <li class="nav-item"><a href="http://127.0.0.1:5500/TelaServicos/servicos.html" class="nav-link text-uppercase fw-bold small text-dark">Serviços</a></li>
+            <li class="nav-item"><a href="http://127.0.0.1:5500/TelaAgendamento/agendamento.html" class="nav-link text-uppercase fw-bold small text-dark">Agendamentos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold small text-dark">Agendar</a></li>
+            <li class="nav-item"><a href="http://127.0.0.1:5500/TelaInicio/inicio.html" class="nav-link text-uppercase fw-bold small text-dark">Sair</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="flex-grow-1 d-flex flex-column justify-content-start align-items-center">
+            
+    <div class="row w-100 mb-5">
+        <div class="col-12 text-center">
+            <h2 class="font-serif fs-2">Agendamento</h2>
+        </div>
+    </div>
+
+    <div class="row justify-content-center w-100">
+        <div class="col-12 col-md-7"> 
+                    
+            <div class="card bg-white shadow-lg p-5 rounded-3">
+                <div class="card-body">
+                            
+<form>
+    <div class="mb-4">
+        <select class="form-select form-custom-field text-center">
+         <option disabled selected>SERVIÇO</option>
+         <option>Cabelos</option>
+         <option>Maquiagem</option>
+         <option>Massagem</option>
+         <option>Unhas</option>
+         <option>Cílios</option>
+         <option>Sobrancelhas</option>
+        </select>
+    </div>
+
+    <div class="mb-4">
+        <input 
+           type="text" 
+           class="form-control form-custom-field text-center" 
+           placeholder="DATA" 
+           onfocus="(this.type='date')" onblur="(this.type='text')">
+    </div>
+
+    <div class="mb-4">
+        <input 
+         type="text" 
+         class="form-control form-custom-field text-center" 
+         placeholder="HORÁRIO" 
+         onfocus="(this.type='time')" onblur="(this.type='text')">
+    </div>
+
+    <div class="mb-5">
+        <select class="form-select form-custom-field text-center">
+         <option disabled selected>FORMA DE PAGAMENTO</option>
+         <option>Cartão de Crédito/Débito</option>
+         <option>Pix</option>
+         <option>Dinheiro</option>
+        </select>
+    </div>
+
+    <div class="d-grid">
+        <button 
+         type="submit" 
+         class="btn btn-agenda-color rounded-pill text-uppercase fw-bold px-5 py-2 shadow-sm"
+         onclick="window.location.href='http://127.0.0.1:5500/TelaAgendamento/agendamento.html'">
+         Agendar
+        </button>
+    </div>
+</form>
+</div>
+</div>
+</div> 
+</div> 
+</main>
+
+<footer class="mt-5">
+    <div class="border-top border-dark pt-4"></div>
+
+        <div class="row gx-5 small">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h6 class="font-serif fw-bold mb-2">Contatos</h6>
+                <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i> (83) 99988-7766</p>
+                <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i> (83) 95544-3322</p>
+                <p class="mb-0"><i class="bi bi-envelope me-2"></i> fionobrestudio@hotmail.com</p>
+            </div>
+
+        <div class="col-md-4 text-center mb-3 mb-md-0">
+            <h6 class="font-serif fw-bold mb-2">Redes Sociais</h6>
+            <p class="mb-1"><i class="bi bi-instagram me-2"></i> @fionobrestudios</p>
+            <p class="mb-1"><i class="bi bi-tiktok me-2"></i> fionobrestudios</p>
+            <p class="mb-0"><i class="bi bi-snapchat me-2"></i> fionobrestudios</p>
+        </div>
+
+        <div class="col-md-4 text-md-end">
+            <h6 class="font-serif fw-bold mb-2">Localização</h6>
+            <div class="d-flex flex-column align-items-md-end">
+            <div class="d-flex justify-content-md-end">
+            <i class="bi bi-geo-alt-fill me-2"></i>
+            <div class="text-start text-md-end">
+            Av. Epitácio Pessoa,<br>
+            nº 1259,<br>
+            JP/PB
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
